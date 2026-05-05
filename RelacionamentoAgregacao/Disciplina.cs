@@ -12,7 +12,7 @@ namespace RelacionamentoAgregacao
 
         public Disciplina()
         {
-            Estudantes = new List<Estudante>();
+            Estudantes = new List<Estudante>(); //lista é inicializada a vazio mas pronta a ser usada,construir a lista
         }
 
         //Método para adicionar estudante á disciplina
